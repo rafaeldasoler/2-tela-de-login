@@ -6,4 +6,5 @@
 
 body {
     background-image: linear-gradient(red, blue);
+    background-image: -moz-linear-gradient(red, blue);
 }
