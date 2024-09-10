@@ -47,6 +47,10 @@ form {
     align-items: center;
 }
 
+label {
+    display: none;
+}
+
 input {
     flex: 0 1 460px;
     height: 45px;
