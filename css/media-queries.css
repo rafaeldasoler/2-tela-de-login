@@ -1,0 +1,11 @@
+@media screen and (min-width: 576px) {
+    section {
+        height: 350px;
+    }
+}
+
+@media (min-width: 768px) {
+    section {
+        height: 450px;
+    }
+}
