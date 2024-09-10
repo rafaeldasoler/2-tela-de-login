@@ -19,6 +19,7 @@ main {
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(45deg, #c80d77 20%, #ffff00 130%);
+    background-size: cover;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
