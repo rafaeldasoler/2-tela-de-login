@@ -3,9 +3,3 @@
         height: 400px;
     }
 }
-
-@media (min-width: 768px) {
-    section {
-        height: 500px;
-    }
-}
