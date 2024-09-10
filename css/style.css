@@ -8,12 +8,14 @@
 
 :root {
     --cor-fundo-input: white;
+    --cor-padrao-1: #ffff00;
+    --cor-padrao-2: #c80d77;
 }
 
 body {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(45deg, #c80d77 20%, #ffff00 130%);
+    background-image: linear-gradient(45deg, var(--cor-padrao-2) 20%, var(--cor-padrao-1) 130%);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -31,7 +33,7 @@ section {
     flex: 1 1 250px;
     max-width: 575.98px;
     height: 300px;
-    background-image: linear-gradient(45deg, #ffff00 20%, #c80d77 130%);
+    background-image: linear-gradient(45deg, var(--cor-padrao-1) 20%, var(--cor-padrao-2) 130%);
     border-radius: 5px;
     margin: 10px;
     display: flex;
@@ -79,9 +81,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #c80d77;
+    background-color: var(--cor-padrao-2);
     cursor: pointer;
     font-size: 1.2em;
-    color: #ffff00;
-    border: 1px solid #ffff00;
+    color: var(--cor-padrao-1);
+    border: 1px solid var(--cor-padrao-1);
 }
