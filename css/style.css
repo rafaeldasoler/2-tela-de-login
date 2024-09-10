@@ -28,7 +28,7 @@ main {
 section {
     flex: 1 1 250px;
     max-width: 575.98px;
-    height: 400px;
+    height: 300px;
     background-image: linear-gradient(45deg, #ffff00 20%, #c80d77 130%);
     border-radius: 5px;
     margin: 10px;
