@@ -24,39 +24,45 @@ main {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 }
 
 section {
-    flex: 1 1 250px;
+    flex: 1 1 auto;
     max-width: 575.98px;
     height: 250px;
     background-image: linear-gradient(45deg, var(--cor-padrao-1) 20%, var(--cor-padrao-2) 130%);
     border-radius: 5px;
     margin: 10px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 }
 
+.tx-login {
+    border: 2px solid red;
+}
+
 form {
-    flex: 1 1 auto;
+    border: 2px solid blue;
+    flex: 0 0 350px;
     margin: 10px;
-    border: 1px solid blue;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 
-label {
-    display: block;
+label {    
     border: 1px solid green;
+    margin-top: 15px;
 }
-
-
 
 input {
-    display: block;
+    flex: 1 1 auto;
     height: 45px;
     border-radius: 5px;
     border: none;
