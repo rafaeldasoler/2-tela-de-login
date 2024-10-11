@@ -9,19 +9,23 @@
 </head>
 <body>
     <main>
-        <section>
-            <div class="tx-login">
+        
+            <div class="login">
                 <h1>Login</h1>
+                <p>sou cliente</p>
+                <p>Olá! Se você já está cadastrado, por favor, informe seu e-mail e senha.</p>
             </div>
             
-            <form action="">
-                <label for="iusuario">Usuário</label>
-                <input type="text" name="usuario" id="iusuario" required placeholder="Digite seu usuário">
-                <label for="isenha"> Senha</label>
-                <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha">
-                <input type="submit" value="Entrar">
-            </form>
-        </section>
+            <div class="form">
+                <form action="login.php" method="post">
+                    <label for="iusuario">Usuário</label>
+                    <input type="text" name="usuario" id="iusuario" required placeholder="Digite seu usuário">
+                    <label for="isenha"> Senha</label>
+                    <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha">
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+        
     </main>
 </body>
 </html>
