@@ -43,7 +43,62 @@ div.login {
 
 div.form {
     flex: 1 1 auto;
+    height: 255px;
     margin: 0px 5px;
     border-radius: 5px;
+    box-shadow: 0px 0px 35px 13px gray;
     background-color: azure;
 }
+
+form {
+    background-color: blueviolet;
+    margin: 5px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.form label {
+    display: none;
+}
+
+input[type=text] {
+    flex: 1 0 300px;
+    height: 45px;
+    padding-left: 10px;
+}
+
+input[type=password] {
+    flex: 1 0 300px;
+    height: 45px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.botao {
+    flex: 1 1 300px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: blue;
+
+}
+
+input[type=submit] {
+    float: left;
+    width: 100px;
+    height: 45px;
+}
+
+form a {
+    background-color: bisque;
+    float: right;
+    width: 100px;
+    height: 45px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-top: 13px;
+}
+
+
